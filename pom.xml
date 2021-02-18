@@ -101,8 +101,9 @@
         <artifactId>maven-release-plugin</artifactId>
         <version>3.0.0-M1</version>
         <configuration>
+          <arguments>-Dquarkus.container-image.build=true -Dquarkus.container-image.name=testo/test-jvm</arguments>
           <localCheckout>true</localCheckout>
-          <goals>dependency:tree</goals>
+          <goals>verify</goals>
         </configuration>
       </plugin>
     </plugins>
