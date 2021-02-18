@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.acme</groupId>
   <artifactId>getting-started</artifactId>
-  <version>1.0.3-idf-SNAPSHOT</version>
+  <version>1.0.3-idf</version>
 
   <scm>
     <connection>scm:git:https://github.com/ryckowski/getting-started</connection>
     <developerConnection>scm:git:https://github.com/ryckowski/getting-started</developerConnection>
     <url>https://github.com/ryckowski/getting-started</url>
-    <tag>HEAD</tag>
+    <tag>getting-started-1.0.3-idf</tag>
   </scm>
 
   <properties>
